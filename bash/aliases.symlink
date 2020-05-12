@@ -1,0 +1,8 @@
+# Throw's git log into a vim sesh
+alias log='git log | vim -R -'
+
+# vim FTW
+alias vi=vim
+
+# ll fun
+alias ll="ls -ltrah"

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# THE MOST IMPORTANT LINE IN ALL THE DOTFILES
+set -o vi

@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# Source the bashrc, aliases, exports files
+for file in ~/.{bashrc,aliases,exports}; do
+  if [[ -r "$file" ]] && [[ -f "$file" ]]; then
+    source "$file"
+  fi
+done
+
+# THE FUNNEST LINE OF ALL THE DOTFILES
+cat << "EOF"
+.------------------------------------------------------------------------------.
+|                             .mmMMMMMMMMMMMMMmm.                              |
+|                         .mMMMMMMMMMMMMMMMMMMMMMMMm.                          |
+|                      .mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm.                       |
+|                    .MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.                     |
+|                  .MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.                   |
+|                 MMMMMMMM'  `"MMMMM"""""""MMMM""`  'MMMMMMMM                  |
+|                MMMMMMMMM                           MMMMMMMMM                 |
+|               MMMMMMMMMM:                         :MMMMMMMMMM                |
+|              .MMMMMMMMMM    If you are reading     MMMMMMMMMM.               |
+|              MMMMMMMMM"     this, please send       "MMMMMMMMM               |
+|              MMMMMMMMM      sparkles in the          MMMMMMMMM               |
+|              MMMMMMMMM      #developer-confidence    MMMMMMMMM               |
+|              MMMMMMMMMM     slack channel!          MMMMMMMMMM               |
+|              `MMMMMMMMMM                           MMMMMMMMMM`               |
+|               MMMMMMMMMMMM.                     .MMMMMMMMMMMM                |
+|                MMMMMM  MMMMMMMMMM         MMMMMMMMMMMMMMMMMM                 |
+|                 MMMMMM  'MMMMMMM           MMMMMMMMMMMMMMMM                  |
+|                  `MMMMMM  "MMMMM           MMMMMMMMMMMMMM`                   |
+|                    `MMMMMm                 MMMMMMMMMMMM`                     |
+|                      `"MMMMMMMMM           MMMMMMMMM"`                       |
+|                         `"MMMMMM           MMMMMM"`                          |
+|                             `""M           M""`                              |
+'------------------------------------------------------------------------------'
+EOF
