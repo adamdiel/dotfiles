@@ -18,11 +18,11 @@ cat << "EOF"
 |                 MMMMMMMM'  `"MMMMM"""""""MMMM""`  'MMMMMMMM                  |
 |                MMMMMMMMM                           MMMMMMMMM                 |
 |               MMMMMMMMMM:                         :MMMMMMMMMM                |
-|              .MMMMMMMMMM    If you are reading     MMMMMMMMMM.               |
-|              MMMMMMMMM"     this, please send       "MMMMMMMMM               |
-|              MMMMMMMMM      sparkles in the          MMMMMMMMM               |
-|              MMMMMMMMM      #developer-confidence    MMMMMMMMM               |
-|              MMMMMMMMMM     slack channel!          MMMMMMMMMM               |
+|              .MMMMMMMMMM                           MMMMMMMMMM.               |
+|              MMMMMMMMM"                             "MMMMMMMMM               |
+|              MMMMMMMMM                               MMMMMMMMM               |
+|              MMMMMMMMM                               MMMMMMMMM               |
+|              MMMMMMMMMM                             MMMMMMMMMM               |
 |              `MMMMMMMMMM                           MMMMMMMMMM`               |
 |               MMMMMMMMMMMM.                     .MMMMMMMMMMMM                |
 |                MMMMMM  MMMMMMMMMM         MMMMMMMMMMMMMMMMMM                 |
